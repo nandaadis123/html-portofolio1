@@ -51,7 +51,7 @@
   }
 
   span{
-    color: brown;
+    color: red;
   }
   #isi-2{
     text-align: center;
@@ -206,7 +206,7 @@ text-align: left;
 
 }
 
-#tombol-1{
+#tombol-2{
   width: 150px;
   height: 50px;
   background-color: rgb(205, 255, 196);
@@ -314,7 +314,16 @@ object-position: 25% 25%;
   margin: 0;
   padding: 0;
 }
-.container {
+/* .container {
   width: 100%;
   min-height: 500px;
+} */
+#tombol4{
+  margin: 20px 0px;
+  width: 150px;
+  height: 50px;
+  background-color: rgb(251, 248, 248);
+  border-radius: 100px ; 
+  padding: 10px 20px;
+  border: rgb(251, 248, 248);
 }
