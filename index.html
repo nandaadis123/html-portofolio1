@@ -5,22 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio</title>
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 
 </head>
-<body>
+<body class="container">
     <div id="header">
         <ul id="kanan">
-            <li><img src="data:image/png;base64,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" alt=""></li>
+            <li>HELLO</li>
         </ul>
         <ul id="kiri">
-            <li><img src="data:image/png;base64,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" alt=""></li>
+            <li>
+                <button id="tombol3" type="button"> <a class="angker" href="https://www.google.com/?hl=id">=</a></button>
+            </li>
         </ul>
 
     </div>
     <div id="main">
         <div id="ruang-atas">   </div>
         <div id="circle">
-            <img src="https://pps.whatsapp.net/v/t61.24694-24/350215777_196718452858195_6222074949397724460_n.jpg?ccb=11-4&oh=01_AdRFq6oAwjgamqtg8Ois0KPqruSisivjmSHVs7ew36326Q&oe=652762AB&_nc_sid=000000&_nc_cat=103" alt=""></div>
+            <img src="https://media.licdn.com/dms/image/C5603AQEYiWp92EfJ0g/profile-displayphoto-shrink_800_800/0/1655871729858?e=1701907200&v=beta&t=i8_gnx575F0oq-KVkA73JNE77WjNsjp5QozwnAMsYpQ" alt=""></div>
         <div id="isi">CREATIVE <span>PORTOFOLIO</span></div>
         <div id="isi-2"> Halo ini adalah portofolio pertama saya. saya berharap bisa membuat lebih baik. </div>
         </div>
@@ -47,10 +51,51 @@
     </div>
     <div>
         <div id="bagianbawah2">
+            <hr class="garis">
             <div>Saya membuat portofolio ini untuk mengembangkan kemampuan dasar dalam pembuatan website </div>
         </div>
     </div>
+    <div>
+        <div>
+            <div><img  class="photo1" src="https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt=""></div>
+            <div><img class="photo1" src="https://images.unsplash.com/photo-1636466497217-26a8cbeaf0aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt=""></div>
+            <div><img class="photo1" src="https://images.unsplash.com/photo-1610891015188-5369212db097?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1829&q=80" alt=""></div>
+            <div><img class="photo1" src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt=""></div>
+        </div>
+        <div>
+            <div><img class="photo2" src="https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1856&q=80" alt=""></div>
+            <div><img class="photo2" src="https://images.unsplash.com/photo-1590959651373-a3db0f38a961?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1939&q=80" alt=""></div>
+            <div><img class="photo2" src="https://images.unsplash.com/photo-1555680510-34daedadbdb1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt=""></div>
+            <div><img class="photo2" src="https://images.unsplash.com/photo-1637669886956-bf0e1cc4f0d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt=""></div>
+        </div>
+        <div>
+            <div><img class="photo3"src="https://images.unsplash.com/photo-1643943669416-1a16f72afae6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1930&q=80" alt=""></div>
+            <div><img class="photo3"src="https://images.unsplash.com/reserve/uZYSV4nuQeyq64azfVIn_15130980706_64134efc6e_o.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1767&q=80" alt=""></div>
+            <div><img class="photo3"src="https://images.unsplash.com/photo-1620856516969-6b6f1c1e780b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt=""></div>
+            <div><img class="photo3"src="https://images.unsplash.com/photo-1558005530-a7958896ec60?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1771&q=80" alt=""></div>  
+        </div>
+    </div>
+    <div id="bagianbawah3">
+        <div class="tulisan2">-images from unsplash-</div>
+        <br>
+        <button id="tombol-1" type="button"> <a class="angker-1" href="https://unsplash.com/">View More</a></button>
+    </div>
+    <div id="bagianbawah4">
+        <div id="kiri1">JavaScript is a scripting or programming language that allows you to implement complex features on web pages every time a web page does more than just sit there and display static information for you to look at  displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved. It is the third layer of the layer cake of standard web technologies, two of which (HTML and CSS) we have covered in much more detail in other parts of the Learning Area   </div>
+        <div id="kanan1">CSS (Cascading Style Sheets) allows you to create great-looking web pages, but how does it work under the hood? This article explains what CSS is with a simple syntax example and also covers some key terms about the language.</div>
 
-    </div id="footer">
+    </div>
+
+    </div >
+    
+    <div id="footer">
+        <div id="footergambar"><img class="final" src="https://images.unsplash.com/photo-1682547094924-4b198c6c6d1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt=""></div> 
+    </div>
+    <div class="penutup">
+        <div><a href="https://www.instagram.com/nandaadis87/" class="fa fa-instagram"></a></div>
+        <div><a href="https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjk2MjUwNjQ4LCJjYWxsc2l0ZV9pZCI6MjY5NTQ4NDUzMDcyMDk1MX0%3D" class="fa fa-facebook"></a></div>
+        <div><a href="https://twitter.com/?lang=id" class="fa fa-twitter"></a></div>
+        <div><a href="https://www.youtube.com/" class="fa fa-youtube"></a></div>
+    </div>
 </body>
 </html>
